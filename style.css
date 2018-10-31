@@ -70,6 +70,22 @@ a:hover {
   padding: 0px 20px;
 }
 
+.list-vertical {
+    display: block;
+    list-style-type: disc;
+/*    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;*/
+    padding-left: 0px;
+    font-size: 30px;
+}
+
+.list-vertical > li {
+  line-height: 80px;
+}
+
 .btn-red {
   background-color: #C61414;
   border-radius: 5px;
@@ -81,4 +97,16 @@ a:hover {
   opacity: 1;
 }
 
+#sidebar {
+  position: fixed;
+  background-color: white;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+}
+#page-content {
+  margin-left: 100px;
+}
 
