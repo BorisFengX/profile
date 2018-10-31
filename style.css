@@ -1,0 +1,84 @@
+h1,h2,h3 {
+  font-family: 'Raleway', sans-serif;
+  line-height: 18px;
+}
+
+h1 {font-size: 23px;
+}
+
+h2 {font-size: 18px}
+h3 {font-size: 16px}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  color:rgb(100,100, 100);
+  font-size: 12;
+  background-color: rgb(220,220,220);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(120,120,120);
+  opacity: 0.7;
+}
+
+a:hover {
+  color: #C61414;
+}
+
+.container {
+  width: 800px;
+  background-color: rgb(230,230,230);
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  text-align: center;
+}
+.card {
+  width: 600px;
+  background-color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 5px;
+  box-shadow:2px,2px,2px, rgb(200,200,200);
+  text-align: center;
+}
+
+.image-circle {
+/*  width: 100px;
+  height: 100px;*/
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.list-inline {
+    display: block;
+    list-style-type: disc;
+/*    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;*/
+    padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.btn-red {
+  background-color: #C61414;
+  border-radius: 5px;
+  color: white;
+  padding: 3px;
+}
+.btn-red:hover {
+  color: white;
+  opacity: 1;
+}
+
+
